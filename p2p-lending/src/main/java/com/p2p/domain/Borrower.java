@@ -22,4 +22,8 @@ public class Borrower {
     public int getCreditScore(){
         return creditScore;
     }
+
+    public boolean canApplyLoan() { 
+        return verified;
+    }
 }

@@ -22,4 +22,14 @@ public class Loan {
     public Status getStatus(){
         return status;
     }
+
+    //method approve
+    public void approve(){
+        this.status = Status.APPROVED;
+    }
+
+    //method reject
+    public void reject(){
+        this.status = Status.REJECTED;
+    }
 }

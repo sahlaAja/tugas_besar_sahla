@@ -23,11 +23,9 @@ public class LoanServiceTest {
         //jumlah loan valid
         BigDecimal amount = BigDecimal.valueOf(1000);
 
-        //Act (Action)
-        //Borrower mencoba mengajukan loan
-        loanService.createLoan(borrower, amount);
-
-        //Assert (Expected Result)
-        assertTrue(true);
+        //Act & Assert
+        assertThrows(IllegalArgumentException.class, () -> {
+            loanService.createLoan(borrower, amount);
+        });
     }
 }

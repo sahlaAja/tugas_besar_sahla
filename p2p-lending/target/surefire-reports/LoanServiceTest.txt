@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: LoanServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! -- in LoanServiceTest
-LoanServiceTest.shouldRejectLoanWhenBorrowerNotVerified -- Time elapsed: 0.060 s <<< ERROR!
-java.lang.IllegalArgumentException: Borrower not verified
-	at com.p2p.service.LoanService.createLoan(LoanService.java:10)
-	at LoanServiceTest.shouldRejectLoanWhenBorrowerNotVerified(LoanServiceTest.java:28)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in LoanServiceTest
