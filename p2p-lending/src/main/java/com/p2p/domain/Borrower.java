@@ -26,4 +26,8 @@ public class Borrower {
     public boolean canApplyLoan() { 
         return verified;
     }
+
+    public boolean isEligibleForLoan(){
+        return creditScore >= 600;
+    }
 }
